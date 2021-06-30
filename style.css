@@ -1,0 +1,148 @@
+.menu 
+{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.menu ul 
+{
+    width: 25%;
+    list-style-type: none;
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.menu ul a 
+{
+    color: black;
+    text-decoration: none;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.block1 
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    font-weight: bold;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.block1 h1 {font-size: 50px; font-family: 'Big Shoulders Display', cursive;}
+
+.block1 p {font-size: 30px; font-family: 'Big Shoulders Display', cursive;}
+
+.block1 .left-block 
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.block2 
+{
+    background-color: rgba(54, 86, 173, 0.5);
+    padding: 20px;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.block2 img 
+{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.active 
+{
+    color: rgb(20, 0, 73) !important;
+    font-weight: bold;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.heading 
+{
+    display: flex;
+    background-color: rgba(20, 0, 94, 0.5);
+    color: white;
+    flex-direction: row;
+    padding: 10px 5vw;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.content 
+{
+    background-color: rgba(14, 4, 158, 0.5);
+    color: white;
+    padding: 20px 5vw;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.container 
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.card 
+{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.card img {width: 100%; height: 45%; }
+
+.card p 
+{
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.card hr {width: 80%;}
+
+.contact 
+{
+    background-color: rgba(0, 110, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5vw;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.contact p {align-self: flex-end;}
+
+.container-contact
+ {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.container-contact .text 
+{
+    width: 70%;
+    padding: 0 20px;
+    font-family: 'Big Shoulders Display', cursive;
+}
